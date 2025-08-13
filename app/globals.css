@@ -1,7 +1,15 @@
+/* Card styles */
+.card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01));
+  border: 2px solid #fff;
+  border-radius: 18px;
+  padding: 28px 24px;
+  box-shadow: 0 4px 32px rgba(60, 130, 246, 0.08);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
   --foreground: #171717;
 }
 
